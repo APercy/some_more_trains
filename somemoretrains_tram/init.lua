@@ -193,7 +193,7 @@ advtrains.register_wagon("tram", {
 
 --wagons
 minetest.register_craft({
-	output = 'somemoretrains:tram',
+	output = 'advtrains:tram',
 	recipe = {
 		{'default:steelblock', 'group:wood', 'default:steelblock'},
 		{'group:wood', 'default:glass', 'group:wood'},
