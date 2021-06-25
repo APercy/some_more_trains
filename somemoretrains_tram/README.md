@@ -1,6 +1,6 @@
 Tram
 
-This mod adds a tram to advtrains, using some code adapted from subway
+This mod adds a tram to advtrains, using the sounds and some code adapted from subway
 
 To set the line number, it's the same way as subway. You have to access the "Driver Stand" position and then
 the Onboard Computer. There you set a line number and it will show the number sign at front and back of the tram.
@@ -12,3 +12,5 @@ yellow #FFFF00
 and the default green, #00FF00
 
 Its max speed is 8.
+
+licence see the files
