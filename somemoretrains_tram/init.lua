@@ -147,7 +147,7 @@ advtrains.register_wagon("tram", {
 	collisionbox = {-1.0,-0.5,-1.0, 1.0,2.5,1.0},
 	is_locomotive=true,
 	drops={"default:steelblock 4"},
-	horn_sound = "somemoretrains_tram_horn",
+	horn_sound = "tram_bell",
 	custom_on_velocity_change = function(self, velocity, old_velocity, dtime)
 		if not velocity or not old_velocity then return end
 		if old_velocity == 0 and velocity > 0 then
